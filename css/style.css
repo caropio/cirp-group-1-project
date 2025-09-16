@@ -26,6 +26,12 @@ body {
   padding: 1rem 2rem;
 }
 
+.navbar .logo img {
+  height: 75px; /* adjust as needed */
+  width: auto;
+  display: block;
+}
+
 .navbar .logo {
   color: #fff;
   font-size: 1.5rem;
@@ -112,4 +118,32 @@ footer {
 
 .btn:hover {
   background: #e68900;
+}
+
+/*  */
+/*  */
+/* Team page */
+.team {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 1rem; /* space between each member */
+  margin-top: 1rem;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* space between image and name */
+}
+
+.team-member img {
+  width: 50px;       /* size of the icon/picture */
+  height: 50px;
+  border-radius: 50%; /* make it circular */
+  object-fit: cover;  /* crop nicely if the image is not square */
+}
+
+.team-member p {
+  margin: 0; /* remove default paragraph margin */
+  font-weight: bold;
 }
