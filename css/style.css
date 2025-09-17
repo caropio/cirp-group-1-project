@@ -1,13 +1,14 @@
 /*  */
 /*  */
 /* Reset some default styles */
-* {
+
+* {  /* the star * means selects all elements */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
+body { /* global body style */
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: #f4f4f9;
@@ -18,62 +19,65 @@ body {
 /*  */
 /*  */
 /* Navbar */
-.navbar {
-  display: flex;
+.navbar { /* navigation bar */
+  display: flex; /* makes it in a row */
   justify-content: space-between;
   align-items: center;
   background: #222;
   padding: 1rem 2rem;
 }
 
-.navbar .logo img {
-  height: 75px; /* adjust as needed */
+.navbar .logo img { /* logo images proportion */
+  height: 75px; 
   width: auto;
   display: block;
 }
 
-.navbar .logo {
+.navbar .logo { /* text logo style (not image) */
   color: #fff;
   font-size: 1.5rem;
   text-decoration: none;
 }
 
-.nav-links {
+.nav-links { /* removes default bullet points */
   list-style: none;
   display: flex;
 }
 
-.nav-links li {
+.nav-links li { /* make links horizontal */
   margin-left: 1.5rem;
 }
 
-.nav-links a {
+.nav-links a { /* color of links */
   text-decoration: none;
   color: #fff;
   transition: color 0.3s ease;
 }
 
-/* .nav-links a:hover {
+.nav-links a:hover { /* make the link a different color if you hover over it */
   color: #ff9800;
-} */
+}
 
-.nav-links a.active {
+.nav-links a.active { /* makes the link of the current page a different color */
   color: #ff9800;
   font-weight: bold;
 }
 
+/*  */
+/*  */
 /* Hero Section */
 .hero {
   text-align: center;
   padding: 4rem 2rem;
 }
 
-.hero h1 {
+.hero h1 {  /* h1 style */
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
-.hero button {
+/* style of the button */
+/* .hero button { 
   padding: 0.8rem 1.5rem;
   background: #ff9800;
   border: none;
@@ -81,16 +85,17 @@ body {
   color: #fff;
   cursor: pointer;
   transition: background 0.3s ease;
-}
+}*/
 
-.hero button:hover {
+/* button style whenver you hover it */
+/*.hero button:hover { 
   background: #e68900;
-}
+} */
 
 /*  */
 /*  */
 /* Footer */
-footer {
+footer { /* style of the footer */
   text-align: center;
   padding: 1rem;
   background: #222;
@@ -105,7 +110,7 @@ footer {
   margin-top: 2rem;
 }
 
-.btn {
+.btn { /* style of button */
   display: inline-block;
   margin: 0.5rem;
   padding: 0.8rem 1.5rem;
@@ -116,27 +121,27 @@ footer {
   transition: background 0.3s ease;
 }
 
-.btn:hover {
+.btn:hover { /* style of button when you hover over it */
   background: #e68900;
 }
 
 /*  */
 /*  */
 /* Team page */
-.team {
+.team { /* team style */
   display: flex;
   flex-direction: column; /* stack vertically */
   gap: 1rem; /* space between each member */
   margin-top: 1rem;
 }
 
-.team-member {
+.team-member { /* style of members part */
   display: flex;
   align-items: center;
   gap: 1rem; /* space between image and name */
 }
 
-.team-member img {
+.team-member img { /* image style */
   width: 50px;       /* size of the icon/picture */
   height: 50px;
   border-radius: 50%; /* make it circular */
@@ -146,4 +151,54 @@ footer {
 .team-member p {
   margin: 0; /* remove default paragraph margin */
   font-weight: bold;
+}
+
+/*  */
+/*  */
+/* Grid style of the framework */
+.thematic-areas {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 1000px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.grid a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #154b88; /* dark blue background like your example */
+  border-radius: 15px;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+.grid a:hover {
+  transform: scale(1.05); /* make it slightly bigger when you hover on top */
+}
+
+.grid a img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.thematic-title {
+  background: #facc15; /* yellow banner */
+  color: #222;
+  font-weight: bold;
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin: 2rem 0;
 }
