@@ -69,6 +69,9 @@ body { /* global body style */
 .hero {
   text-align: center;
   padding: 4rem 2rem;
+  width: 95%;       
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .hero h1 {  /* h1 style */
@@ -221,4 +224,12 @@ footer { /* style of the footer */
   border-radius: 10px;
   margin: 2rem 0;
   font-size: 2rem;
+}
+
+
+.responsive-img {
+  width: 100%;       /* Image takes full width of its container */
+  height: auto;      /* Maintains aspect ratio */
+  display: block;    /* Removes unwanted inline spacing */
+  margin: 0 auto;    /* Center the image */
 }
