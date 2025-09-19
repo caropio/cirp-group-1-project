@@ -1,8 +1,8 @@
-SAFE – Shared Awareness For Emergencies 🌍🚨
+# SAFE – Shared Awareness For Emergencies 🌍🚨
 
 This project was created as part of the CIRP Program Week group project by Haruka KOBAYASHI, Maria Angelica MEZA RIOS, Riu Gabriel RODRIGUEZ, Rui MAO, Caroline PIOGER, Chloé Anna HÖLLERER. We had only 72 hours to imagine and prototype an innovative pedagogical product.
 
-Our product is the SAFE app (Shared Awareness For Emergencies), whose visuals are presented on the learn.html, prepare.html, respond.html and recover.html pages. 
+Our product is the SAFE app (Shared Awareness For Emergencies), whose visuals are presented on the ```learn.html```, ```prepare.html```, ```respond.html``` and ```recover.html``` pages. 
 
 This is an imaginary project — the app does not exist as a real product.
 We used this code as a way to present the idea in a web-based format.
@@ -18,4 +18,4 @@ Still, we hope this project can serve as an inspiration for students and beginne
 Building a simple, functional website in short time is doable and fun
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3).
-See the LICENSE file for details.
+See the ```LICENSE``` file for details.
