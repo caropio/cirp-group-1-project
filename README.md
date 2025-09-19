@@ -17,5 +17,10 @@ In a real-world project, commits should clearly explain the changes made.
 Still, we hope this project can serve as an inspiration for students and beginners to discover that:
 Building a simple, functional website in short time is doable and fun
 
+I'd recommending starting the look at the ```index.html```, ```framework.html```, ```css/style.css``` and ```js/script.js```
+files as they are the most representative scripts. In a nutshell, html files take care of the structure of the page, the css one 
+of the style/esthetics and the javascript of the dynamic part (as both html and css are static).
+
+
 This project is licensed under the GNU General Public License v3.0 (GPLv3).
 See the ```LICENSE``` file for details.
