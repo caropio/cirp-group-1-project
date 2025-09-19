@@ -1,6 +1,9 @@
 /*  */
 /*  */
-/* Reset some default styles */
+/* This CSS file defines the layout and design of pages of the website.
+It is organized according to classes which are called in html files.
+The purpose of css here is pretty much to establish the esthetics of 
+the pages. The Html pages are about the structure of the page. */
 
 * {  /* the star * means selects all elements */
   margin: 0;
@@ -97,23 +100,6 @@ body { /* global body style */
   margin: 2rem 0;
 }
 
-
-
-/* style of the button */
-/* .hero button { 
-  padding: 0.8rem 1.5rem;
-  background: #ff9800;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}*/
-
-/* button style whenver you hover it */
-/*.hero button:hover { 
-  background: #e68900;
-} */
 
 /*  */
 /*  */
