@@ -1,3 +1,16 @@
+// JavaScript files (.js) handle the dynamic/interactive parts 
+// of a website. They allow HTML and CSS (which are static) to 
+// respond to user actions, load content automatically, and 
+// make the site feel more "alive". For example here, We dynamically 
+// load the header.html and footer.html into 
+// every page. This way, if you change the header or footer 
+// once, it updates everywhere automatically (no need to 
+// copy-paste the same code on multiple pages).
+// We also highlight the active navigation link based on 
+// which page the user is currently on.
+
+
+
 // Function to load HTML templates
 function loadTemplate(id, file) {
   fetch(file) // Fetch the template file (e.g., header.html)
