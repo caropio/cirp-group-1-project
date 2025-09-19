@@ -8,7 +8,7 @@ This is an imaginary project — the app does not exist as a real product.
 We used this code as a way to present the idea in a web-based format.
 
 This project is a static multi-page website built with HTML, CSS, JavaScript
-As it is, it will run locally (via python -m http.server).
+As it is, it will run locally (via python -m http.server), don't forget to adapt the cd in the ```run.sh``` file !
 
 Due to time constraints, some commit messages are not descriptive (e.g. just "update").
 ⚠️ This is not good practice in real coding projects! 
