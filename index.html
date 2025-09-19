@@ -9,6 +9,14 @@
 </head>
 <body>
 
+<!-- This is the page on which you will arrive as you run the code. All of the other html will 
+ have the same structure and content. We call the nagivation bar (header) from the header.html
+ file and the bottom bar (footer) from the footer.html file. Then the main content were generally 
+ calling images from the images folder. 
+ By the way, Html pages are about the structure of the pages, whilst CSS files take care of the 
+ esthetics.-->
+
+
 <!-- Header -->
 <div id="header"></div>
 
@@ -16,19 +24,20 @@
 <main>
     <section class="hero">
       <h0>Shared Awareness For Emergencies (SAFE)</h0>
+
+      <!-- Presenting a picture with the responsive-img class from style.css -->
       <img src="images/community-center.png" alt="Community center", class="responsive-img">
 
       <div class="button-group">
-        <a href="intro.html" class="btn">Next</a>
+        <a href="intro.html" class="btn">Next</a> <!-- By clicking on the button, you go 
+                                                    directly on the intro.html page -->
       </div>
 
     </section>
 </main>
 
 
-
-
-  <!-- Footer will load here -->
+  <!-- Footer -->
   <div id="footer"></div>
 
   <script src="js/script.js"></script>
